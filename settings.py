@@ -8,4 +8,4 @@ class Settings:
         self.black = (0, 0, 0)
 
         self.block_size = 20
-        self.speed = 20
+        self.speed = 80

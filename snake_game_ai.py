@@ -47,7 +47,7 @@ class SnakeGameAI:
         self.food = Point(x, y)
 
         if self.food in self.snake:
-            self.place_food()
+            self._place_food()
 
     def play_step(self, action):
         self.frame_iteration += 1
