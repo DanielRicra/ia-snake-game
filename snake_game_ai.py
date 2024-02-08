@@ -14,7 +14,7 @@ Point = namedtuple("Point", "x,y")
 
 class SnakeGameAI:
 
-    def __init__(self, w=640, h=480) -> None:
+    def __init__(self, w=600, h=480) -> None:
         self.w = w
         self.h = h
 
